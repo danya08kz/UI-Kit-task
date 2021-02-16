@@ -1,0 +1,115 @@
+.rad-bg {
+    background-color: #dc107e;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 25px;
+    &:hover {
+        background-color: #e9298f;
+    }
+    &:active {
+        background-color: #e9298f;
+        transform: translateY(1px);
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+.rad-non-bg {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #dc107e;
+    color: #dc107e;
+    font-size: 18px;
+    border-radius: 25px;
+    &:hover {
+        background-color: #e9298f;
+        border: 2px solid #e9298f;
+        color: white;
+    }
+    &:active {
+        background-color: #e9298f;
+        color: white;
+        transform: translateY(1px);
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+.rad-small-bg {
+    height: 35px;
+    width: 200px;
+    background-color: #dc107e;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 25px;
+    &:hover {
+        background-color: #e9298f;
+    }
+    &:active {
+        background-color: #e9298f;
+        transform: translateY(1px);
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+.r-bg {
+    background-color: #dc107e;
+    border: none;
+    font-size: 18px;
+    color: white;
+    &:hover {
+        background-color: #e9298f;
+    }
+    &:active {
+        background-color: #e9298f;
+        transform: translateY(1px);
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+.r-non-bg {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #dc107e;
+    color: #dc107e;
+    font-size: 18px;
+    &:hover {
+        background-color: #e9298f;
+        border: 2px solid #e9298f;
+        color: white;
+    }
+    &:active {
+        background-color: #e9298f;
+        color: white;
+        transform: translateY(1px);
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+.r-small-bg {
+    height: 35px;
+    width: 200px;
+    background-color: #dc107e;
+    border: none;
+    font-size: 16px;
+    color: white;
+    &:hover {
+        background-color: #e9298f;
+    }
+    &:active {
+        background-color: #e9298f;
+        transform: translateY(1px);
+        outline: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
